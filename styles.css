@@ -1,0 +1,69 @@
+.navbar-nav .nav-link {
+    transition: transform 0.3s, color 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: orange; 
+    transform: scale(1.2);
+}
+main .home{
+    background-image: url(./images/hans-vivek-JUOnq-SaBDU-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.home a.btn-custom-width{
+    width: 300px;
+}
+
+
+.menu-section {
+    padding: 50px 0; /* Espacement de la section */
+    background-color: #f8f9fa; /* Couleur de fond gris clair */
+}
+.menu-card {
+    margin-bottom: 30px; /* Espacement entre les cartes */
+}
+.card-img-top {
+    height: 200px; /* Hauteur de l'image */
+    object-fit: cover; /* Ajuste l'image pour couvrir la carte */
+}
+
+
+
+.about-us-section h2{
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    color: #D2691E ; 
+}
+
+.menu-section h2{
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+    color: #D2691E ; 
+}
+
+.custom-history-title,
+.custom-vision-title{
+    font-family: "EB Garamond", serif;
+    font-style: italic;
+}
+
+*{
+    font-family: "EB Garamond", serif;
+}
+
+
+.contact{
+    background-image: url(./images/res.jpg);
+    background-size: cover;
+    background-position: center; /* Centre l'image */
+    color: #fff; /* Change la couleur du texte si nécessaire pour la lisibilité */
+    position: relative; 
+}
+.contact h2{
+    font-family: "EB Garamond", serif;
+    font-style: italic; 
+}
